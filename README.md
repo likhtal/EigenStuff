@@ -1,6 +1,6 @@
-Application of Erik Burn code to insurance industry:
+Application of Erik Bern code to insurance industry (see https://github.com/erikbern/eigenstuff):
 
-From Erik Burn:
+From Erik Bern:
 
 Scrape search queries from Google. The code quality isn't the best (should factor out the configuration into a static file at some point!)
 
