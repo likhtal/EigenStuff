@@ -6,6 +6,6 @@ Scrape search queries from Google. The code quality isn't the best (should facto
 
 You probably need to run it through a proxy: `$ HTTP_PROXY=xyz python analyze.py`
 
-![lang](https://raw.githubusercontent.com/erikbern/eigenstuff/master/prog_lang_matrix.png)
+![lang](https://raw.githubusercontent.com/likhtal/eigenstuff/master/insurance_matrix.png)
 
-![lang](https://raw.githubusercontent.com/erikbern/eigenstuff/master/prog_lang_matrix_eig.png)
+![lang](https://raw.githubusercontent.com/likhtal/eigenstuff/master/insurance_matrix_eig.png)
