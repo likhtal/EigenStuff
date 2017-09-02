@@ -10,4 +10,4 @@ You probably need to run it through a proxy: `$ HTTP_PROXY=xyz python analyze.py
 
 ![lang](https://raw.githubusercontent.com/likhtal/EigenStuff/master/insurance_matrix_eig.png)
 
-Results: ![lang](https://raw.githubusercontent.com/likhtal/EigenStuff/master/insurance.results.txt)
+Results: ![results](https://raw.githubusercontent.com/likhtal/EigenStuff/master/insurance.results)
