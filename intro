@@ -1,0 +1,20 @@
+Matthew Winter
+retention
+
+1)
+
+Another thing that got me interested is Matthew (I hope I am not mistaken) mentioning that he would be very interested in figuring out retention. Well, I cannot help to increase retention, but I do have a related thought.
+
+We should be, probably, talking not about static retention (how many of the same people stay), but about dynamic retention (no matter how many people leave, if more people join, it’s good. If you follow my drift.) Now, when people leave they leave either to major players, or to smaller players, or just die (lose insurance/cannot drive anymore). Same with joining in (either new drivers, or switching from major players, or from smaller players). If we bag all small players in one big bag, we can come up with a matrix of transitions – what is the probability of switching from one to another (say, Progressive to StateFarm; or from AllState to no insurance; or from no car/insurance to StateFarm; and so on.) This matrix (provided that we can figure out the numbers) defines a Markov chain. It is, in fact, continuous, but, I guess, can be discretized at, say, quarter levels. Now, the matrix itself is a great indicator of retention – much better than a simple retention coefficient. It can also predict the future. If coefficients are stable, there supposed to be a stable state (not always, but typically). If coefficients change (say, a seemingly unrelated coefficient of switching from Progressive to StateFarm changes), it will affect AllState during next iteration (I don’t think I need to explain how) – so, it may be a good predictor for the future retention levels.
+
+So, if the data is available, and nobody is working on it yet, this may be a fairly low-hanging fruit, unfortunately unrelated to autonomous driving. If the data above is inaccessible in principle – well, I just shared with what I think may be an interesting idea.
+
+
+2)
+
+A bit of development on my retention calculation suggestion (prompted by one of the slides shown yesterday) – it is not automotive, but, perhaps, we can sell it to somewhere:
+ 
+- So, my original suggestion was to build a matrix of probabilities (using Markov chain approach). That would not involve any Deep Learning, or ML. It’s computationally easy, and I believe may give interesting results, but getting the data for transition probabilities may be challenging.
+- On the other hand, we, probably, can easily get data from switches of individual AllState customers, with the state machine looking something like that: in, allstate car, allstate home, allstate car and home, out, etc. etc., include a lot of parameters (you know: age, gender, hair color, what not) and use Deep Learning (that it what they were using with mortgage statuses on that slide). It’s quite possible that somebody at AllState is doing it already.
+- What, perhaps, may be an original idea is to marry retention from above with UBI: the idea is that you may want to reduce insurance premium for low-retention category, but only if they are safe-drivers. High-retention will stay anyway, so you can keep high rates. Low-retention and drivers that are worse than average can go anyway unless they pay a higher rate. That kind of stuff. 
+

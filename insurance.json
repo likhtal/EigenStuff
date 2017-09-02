@@ -1,0 +1,5 @@
+{
+    "tag": "insurance",
+    "items": ["allstate", "state farm", "statefarm", "progressive", "geico"],
+    "verbs": ["switch", "switched"]
+}
