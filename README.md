@@ -8,4 +8,4 @@ You probably need to run it through a proxy: `$ HTTP_PROXY=xyz python analyze.py
 
 ![lang](https://raw.githubusercontent.com/likhtal/EigenStuff/master/insurance_matrix.png)
 
-![lang](https://raw.githubusercontent.com/likhtal/eigenstuff/master/insurance_matrix_eig.png)
+![lang](https://raw.githubusercontent.com/likhtal/EigenStuff/master/insurance_matrix_eig.png)
